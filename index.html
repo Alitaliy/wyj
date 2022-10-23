@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="css/css.css" rel="stylesheet" type="text/css" id="cssfile" />
+  <link href="css/swiper-bundle.min.css" rel="stylesheet" type="text/css" />
+
+
+</head>
+
+<body>
+
+
+
+  <div class="nav">
+    <div class="wrapper">
+      <div class="logo">
+        <a href="#"><img src="./images/个人博客.png" height="45"></a>
+      </div>
+      <ul>
+        <li><a href="index.html">首页</a></li>
+        <li><a href="个人介绍.html">个人简介</a>
+        
+        </li>
+        <li><a href="留言板.html">给我留言</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="menuBox">
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"> <img src="./images/1.png" alt=""> </div>
+        <div class="swiper-slide"> <img src="./images/2.png" alt=""> </div>
+      </div>
+      <!-- Add Pagination -->
+      <div class="swiper-pagination"></div>
+      <!-- Add Arrows -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+  </div>
+  <div class="about">
+    <div class="wrapper">
+      <div class="menutitle">
+        <h3>个人介绍</h3>
+      </div>
+
+      <dl>
+        <dt>
+          <img src="./images/about.png" alt="">
+        </dt>
+        <dd>
+          <h3>汪禹杰</h3>
+          <p>汪禹杰 四川轻化工大学 </p>
+          <p>
+           
+          </p>
+              <p>
+
+          </p>
+
+        </dd>
+      </dl>
+
+    </div>
+
+  </div>
+
+  <div class="wrapper">
+    <div class="menutitle">
+      <h3>我的挚爱</h3>
+    </div>
+
+
+    <div class="zixun">
+      <div class="list clearfix">
+        <div class="pic">
+          <a href="#">
+            <img src="./images/蕾姆.jpg" style="display: inline;">
+          </a>
+        </div>
+        <div class="detail">
+          <a href="#">
+            <h5>蕾姆</h5>
+          </a>
+          <p>
+           如果爱情有颜色，那么一定是蓝色
+
+          </p>
+
+        </div>
+      </div>
+      <div class="list clearfix">
+        <div class="pic">
+          <a href="#">
+            <img src="./images/阿尔托莉雅.jpg" style="display: inline;">
+          </a>
+        </div>
+        <div class="detail">
+          <a href="#">
+            <h5></h5>
+          </a>
+          <p> 
+	吾王剑之所指，吾等心之所向！
+	</p>
+
+        </div>
+      </div>
+      <div class="list clearfix">
+        <div class="pic">
+          <a href="#">
+            <img src="./images/嘉然.jpg" style="display: inline;">
+          </a>
+        </div>
+        <div class="detail">
+          <a href="#">
+            <h5>嘉然</h5>
+          </a>
+          <p>
+            如果世上只剩下一个女孩子，应该给她取名叫嘉然。
+          </p>
+
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+  </div>
+
+
+  <div class="desinbox">
+    <div class="wrapper">
+      <div class="menutitle">
+        <h3>招募游戏好友</h3>
+
+      </div>
+      <ul>
+        <li>
+          <img src="./images/艾尔登法环.jpg" alt="">
+
+          <h3>环游艾尔登法环</h3>
+
+        </li>
+        <li>
+
+          <img src="./images/apex.jpg" alt="">
+          <h3>成为apex捍卫者</h3>
+
+        </li>
+        <li>
+
+          <img src="./images/炉石传说.jpg" alt="">
+          <h3> 去炉石酒馆打牌</h3>
+
+        </li>
+        <li>
+          <img src="./images/守望先锋.jpg" alt="">
+
+          <h3>吃我神龙之剑</h3>
+
+        </li>
+        <li>
+
+          <img src="./images/dread hunger.jpg" alt="">
+          <h3>开船逃回伦敦</h3>
+
+        </li>
+        <li>
+
+          <img src="./images/饥荒.jpg" alt="">
+          <h3>饱荒种地养老</h3>
+
+        </li>
+      </ul>
+    </div>
+  </div>
+
+
+
+  <div class="foot">
+    <div class="footer">
+      <div class="footleft">
+      <div class="footleft">
+        <h5>联系方式</h5>
+        <p>邮箱：123456@qq.com</p>
+        <p>Q Q：123456789</p>
+      </div>
+    </div>
+  </div> 
+</body>
+
+</html>
+ 
+<script src="./js/swiper-bundle.min.js"></script>
+ 
+<script>
+  var swiper = new Swiper('.swiper-container', {
+    slidesPerView: 1,
+    spaceBetween: 30,
+    loop: true,
+    autoplay:true,
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  });
+</script>

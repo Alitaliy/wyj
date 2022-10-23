@@ -1,0 +1,352 @@
+/* CSS Document */
+body { margin: 0; font-size: 12px; font-family: 'microsoft yahei', '黑体'; line-height: 1.5; color: #333; }
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, img, form, fieldset, legend, input, textarea, p, blockquote, th, td, hr, button, font { border: none; padding: 0; margin: 0; list-style: none; }
+h1 { font-size: 30px; font-weight: normal; font-family: 'microsoft yahei', '黑体'; }
+h2 { font-size: 14px; }
+h3 { font-size: 14px; font-weight: normal; }
+h4 { font-size: 12px; }
+h5 { font-size: 12px; font-weight: normal; }
+font { font-size: 12px; }
+a { color: #333; text-decoration: none; }
+a:hover { color: #f60; text-decoration: none; }
+dfn, i { font-style: normal; }
+.clearfloat { clear: both; height: 0; font-size: 1px; line-height: 0px; }
+.clear:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+.main { width: 1000px; margin: 0 auto; }
+.banner { height: 328px; }
+.navtips { width: 100%; min-width: 1200px; height: 30px; line-height: 30px; background: #f8f8f8; }
+.navtips ol { float: left; }
+.navtips ol li { float: left; padding: 0 5px; color: #dbdbdb; }
+.navtips ul { float: right; }
+.navtips ul li { float: left; padding: 0 5px; color: #dbdbdb; }
+.wrapper { width: 1100px; margin: 0 auto; }
+.menuBox { overflow: hidden; margin-bottom: 25px; }
+.menuBox .menu { width: 240px; height: 480px; background: #fff; float: left; overflow: hidden; background-color: #f1f1f1; }
+.swiper-container { width: 100%; height: 100%; margin-left: auto; margin-right: auto; }
+.swiper-slide { text-align: center; font-size: 18px; /* Center slide text vertically */
+display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; -webkit-justify-content: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; -webkit-align-items: center; align-items: center; }
+.banner { width: 100%; height: 560px; float: right;  }
+.swiper-slide img { width: 100%; height: 100%; }
+.logobox { overflow: hidden; padding: 30px 0; }
+.swiper-button-next, .swiper-button-prev { color: #F699B4; }
+.logo { float: left; padding-top: 3px; height: 50px; overflow: hidden; box-sizing: border-box; }
+.searchBox { width: 288px; margin: 5px 0 0 75px; float: left; height: 32px; border: 2px solid #0C9DDE; position: relative; border-radius: 2px; background: #fff; }
+.searchBox .searchInput { border: none; line-height: 24px; height: 24px; width: 208px; margin: 7px 0; float: left; font-size: 14px; outline: none; }
+.searchBox .searchBtn { width: 68px; height: 34px; margin: -2px -2px 0 0; background: #06567a url(../images/search.png) no-repeat center; background-color: #06567a; border: none; float: right; font-size: 16px; color: #fff; cursor: pointer; }
+.nav { width: 100%; background: #0C9DDE; height: 50PX; position: relative; z-index: 100000; }
+.nav ul { width: 450px; float: left; margin: 0 auto; display: flex; }
+.nav ul li { height: 48px; line-height: 48px; font-size: 18px; width: 140px; text-align: center; position: relative; width: 140px; }
+.nav ul li a { color: #fff; }
+.nav ul li dl {
+	position:absolute;
+	left:0;
+	top:47px;
+	width:112px;
+  display:none;
+  
+}
+.nav ul li dl dd {
+  height:48px;
+  background-color: #0C9DDE; }
+.nav ul li dl dd a {
+	display:block;
+  height:48px;
+ 
+	line-height:48px;
+	text-align:center;
+	color:#fff;
+ 
+ 
+}
+.nav ul li dl dd a:hover{background:#0777ac;color:#fff;}
+.banner{ position: relative; z-index: 10000;}
+.porlist { overflow: hidden; margin-bottom: 20px; }
+.porlist { display: flex; justify-content: space-between; }
+.porlist dl { width: 354px; height: 597px; background: #6AB5AA; border-radius: 50px 0px 50px 0px; }
+.porlist dl:first-child { background: #39A8C7; }
+.porlist dl:last-child { background: #E79C6D; }
+.porlist dl dt { text-align: center; padding: 20px; }
+.porlist dl h3 { text-align: center; line-height: 40px; font-size: 16px; }
+.porlist dl dd ul { padding: 0 40px; }
+.porlist dl dd ul li { height: 40px; line-height: 40px; font-size: 14px; }
+.porlist dl dd ul li a { color: #fff; }
+.porlist dl dd ul li span { width: 50px; float: left; ; }
+.directleft { width: 240px; height: 400px; float: left; }
+.directleft img { width: 100%; height: 100%; }
+.directright { float: right; }
+.foot { background-color: #f8f9fa; }
+.footer { width: 1000px; margin: 0 auto; padding: 30px 0; display: flex; }
+.footleft { width: 50%; display: inline-block }
+.footleft h5 { font-size: 18px; margin-bottom: 10px; color: #000; }
+.footleft p { line-height: 32px; color: #888 }
+.menutitle { padding: 30px 0 }
+.menutitle h3 { text-align: center; font-size: 20px; margin-bottom: 10px; color: #000; }
+.menutitle p { text-align: center; color: #888; margin-bottom: 15px; }
+.about { padding: 50px 0; background-color: #f8f8f8; margin: 50px 0; overflow: hidden; }
+.about dl { width: 1100px; margin: 0 auto; }
+.about dl dt { width: 385px; float: left; }
+.about dl dt img { width: 100%; }
+.about dl dd { padding-left: 420px; }
+.about dl dd p { font-size: 16px; line-height: 32px; text-align: left; text-indent:40px; margin-bottom: 20px; }
+.about dl dd  h3{ line-height: 50px; font-size:30px;  text-align: center;}
+.sonbaner { padding: 30px 0; }
+.essaybox { overflow: hidden; padding: 20PX 0; }
+.essay { width: 785px; float: left; }
+.essay h2 { height: 42px; padding-bottom: 8px; font-size: 24px; color: #000; }
+.zixun{ overflow: hidden; display: flex; justify-content: space-between;}
+.title { height: 58px; border: 1px solid #eee; background: #f8f8f8; }
+.title ul li { line-height: 58px; position: relative; padding: 0 11px; font-size: 16px; color: #000; font-weight: bold; display: inline-block; float: left; cursor: pointer }
+.title ul li a { color: #000; display: block; }
+.title ul li em { position: absolute; height: 5px; left: 0; top: 0; right: 0; background: #da004c; display: none; }
+.title ul li:hover, .essay .title ul li.active { background: #fff; color: #da004c; line-height: 59px; }
+.title ul li:hover em, .essay .title ul li.active em { display: block }
+.title ul li:hover a, .essay .title ul li.active a { color: #da004c }
+.list { padding: 24px 0; border-bottom: 1px solid #eee; overflow: hidden; width: 330px; float: left; }
+.list a { display: block }
+.list .pic { width: 330px; height: 195px;   overflow: hidden }
+.list .pic img { width: 100%; height: 195px; box-sizing: border-box; opacity: 1; -webkit-transition: all .8s ease; -moz-transition: all .8s ease; -o-transition: all .8s ease; -ms-transition: all .8s ease; transition: all .8s ease; }
+.list:hover .pic img { opacity: .8; -webkit-transform: scale(1.05); -moz-transform: scale(1.05); -o-transform: scale(1.05); -ms-transform: scale(1.05); transform: scale(1.05); }
+.list .detail { width: 330px; height: 195px;   position: relative }
+.list .detail h5 { font-size: 20px; line-height: 32px; color: #000; font-weight: normal; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; white-space: normal; }
+.list .detail p { padding: 12px 0; font-size: 16px; color: #999; line-height: 26px; height: 70px; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; white-space: normal; }
+.list .detail .bottom { width: 100%; height: 26px; line-height: 26px; }
+.list .detail .bottom a { display: inline-block; margin-right: 10px; color: #999; }
+.list h5:hover { color: #da004c; text-decoration: underline }
+.listPic { padding: 20px 0; border-bottom: 1px solid #eee; }
+.listPic h5 { font-size: 20px; line-height: 26px; color: #000; font-weight: normal; white-space: nowrap; text-overflow: ellipsis; -o-text-overflow: ellipsis; overflow: hidden; }
+.listPic ul li { width: 200px; height: 150px; margin: 16px 20px 14px 0; float: left; overflow: hidden; }
+.listPic ul li:nth-child(4) { margin-right: 0; }
+.listPic ul li img { width: 100%; height: 100%; box-sizing: border-box; opacity: 1; -webkit-transition: all .8s ease; -moz-transition: all .8s ease; -o-transition: all .8s ease; -ms-transition: all .8s ease; transition: all .8s ease; }
+.listPic ul li:hover img { opacity: .8; -webkit-transform: scale(1.05); -moz-transform: scale(1.05); -o-transform: scale(1.05); -ms-transform: scale(1.05); transform: scale(1.05); }
+.listPic .bottom { height: 24px; line-height: 24px; }
+.listPic .bottom em { display: inline-block; margin-right: 20px; font-size: 14px; color: #999; font-style: normal; }
+.listPic .bottom em a { display: inline-block; margin-right: 10px; color: #999; }
+.listPic .bottom em a:hover { color: #da004c; text-decoration: underline }
+.listPic h5:hover { color: #da004c; text-decoration: underline }
+.content>div:last-child { border-bottom: none; }
+.asideR { width: 300px; float: right; }
+.common-title { height: 38px; }
+.common-title h2 { font-size: 22px; height: 35px; float: left; font-weight: normal; padding-left: 2px; color: #000; }
+.common-title h2 a { color: #333 }
+.newest ul li { padding: 15px 0; border-bottom: 1px solid #eee; overflow: hidden; }
+.newest ul li a { display: block; }
+.newest ul li .photo { overflow: hidden; float: left; margin-right: 12px; width: 104px; height: 79px; }
+.newest ul li img { box-sizing: border-box; opacity: 1; -webkit-transition: all .8s ease; -moz-transition: all .8s ease; -o-transition: all .8s ease; -ms-transition: all .8s ease; transition: all .8s ease; width: 100%; height: 100%; }
+.newest ul li div { float: left; width: 184px; }
+.newest ul li div h3 { height: 52px; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden; font: 500 16px/26px "Microsoft YaHei"; color: #333; }
+.newest ul li div p { font: 500 12px/24px "Microsoft YaHei"; color: #999; }
+.newest ul li a:hover h3 { color: #b71f38; }
+.newest ul li a:hover img { opacity: .8; -webkit-transform: scale(1.05); -moz-transform: scale(1.05); -o-transform: scale(1.05); -ms-transform: scale(1.05); transform: scale(1.05); }
+.protips { background: url(../images/sunrise_bg.png) 0 0 no-repeat; height: 338px; background-size: 100% }
+.protips h3 { line-height: 60px; font-size: 30px; padding-left: 60px; padding-top: 100px; }
+.protips p { line-height: 60px; font-size: 20px; padding-left: 60px; }
+.adva ul { display: flex; margin-bottom: 50px; }
+.adva ul li { width: 16.6666%; text-align: center; font-size: 18px; color: #555; }
+.adva ul li p { padding-top: 10px; }
+.about2 dl dd { float: left; padding: 0; }
+.hezuo ul { display: flex; flex-wrap: wrap; }
+.hezuo ul li { width: 16.66%; padding: 0 15px; box-sizing: border-box; margin-bottom: 15px; }
+.hezuo ul li img { width: 100%; border: 1px solid #dbdbdb; }
+.other { padding: 50px 0; }
+.other ul { display: flex; margin-bottom: 50px; justify-content: space-between; }
+.other ul li { width: 560px; overflow: hidden; height: 270px; position: relative; }
+.other ul li img { width: 100%; transition: all .8s ease; position: relative; z-index: 11; }
+.other ul li img:hover { transform: scale(1.1) }
+.other ul li p { width: 100%; height: 100%; position: absolute; background-color: rgb(0 0 0 / 50%); top: 0; left: 0; display: none; z-index: 1000; }
+.other ul li p a { border: 1px solid #fff; width: 150px; height: 40px; display: block; line-height: 40px; position: absolute; margin: auto; left: 0; right: 0; bottom: 0; top: 0; text-align: center; font-size: 18px; color: #fff; }
+.other ul li:hover p { display: block; }
+.wedd { padding: 30px 0; }
+.desin { overflow: hidden; padding: 30px 0; }
+.desin2 { background-color: #f8f8f8; }
+.desin dl { margin-bottom: 30px; overflow: hidden; }
+.desin dl dt { width: 50%; float: left; }
+.desin dl dt p { text-align: left; font-size: 16px; line-height: 30px; }
+.desin dl dd { width: 500px; float: left; padding: 0 0 0 40px; }
+.desin dl dd img { width: 100%; }
+.desin2 dl dd { padding: 0 30px 0 0; }
+.desinbox { background-color: #f8f8f8; width: 100%; padding: 20px 0; margin-bottom: 100px; }
+.desinbox ul { display: flex; justify-content: space-between; flex-wrap: wrap; }
+.desinbox ul li { width: 330px; color: #000; text-align: center; }
+.desinbox ul li img { width: 100%; height: 280px; border-bottom: 5px solid #f90; }
+.desinbox ul li h3 { font-size: 18px; line-height: 50px; ; }
+.desinbox ul li p { line-height: 32px; }
+.onlineTitle-v2 { padding: 30px 0 16px 3px; position: relative; border-bottom: 1px solid #dbdbdb;   font-weight: 500; color: #333333; line-height: 42px; font-size: 20px; }
+.onlineTitle-v2 h2{ font-size: 20px;}
+.onlineTitle-v2 h2 span { height: 26px; font-size: 14px; font-family: Helvetica; color: #333333; line-height: 26px; margin-left: 20px; }
+.hangliust { padding: 20px 0; }
+.hangliust ul li { line-height: 20px; height: 20px; margin-bottom: 15px; overflow: hidden; font-size: 14px; }
+.hangliust ul li i { width: 20px; height: 20px; display: block; float: left; text-align: center; color: #fff; background-color: #f00; margin-right: 15px; line-height: 20px; }
+.piece ul { display: flex; justify-content: space-between; padding: 30px 0; flex-wrap: wrap; }
+.piece ul li { width: 270px; height: 220px; margin-bottom: 25px; overflow: hidden; box-sizing: border-box; position: relative; }
+.piece ul li img { width: 270px; height: 220px; }
+.piece ul li p { position: absolute; width: 270px; height: 32px; background: rgb(134, 83, 83, 0.5); line-height: 32px; color: #fff; bottom: 0; text-indent: 20px; font-size: 14px; }
+.footerson { text-align: center; background-color: #f1f1f1; color: #999; text-align: center; line-height: 28px; }
+.notemenu{ font-size: 18px; padding-bottom: 10px;   margin-bottom: 10px;}
+.info{ padding-top: 20px;}
+.info dl { overflow: auto; zoom: 1; margin-bottom: 15px; }
+.info dl {   margin-bottom: 20px; padding-bottom: 30px; }
+.info dl dd { padding: 0 20px; color: #333; font-size: 12px; font-weight: normal; height: 30px; line-height: 30px; }
+.info dl dd h3 { border-bottom: none; font-size: 20px; text-align: center; margin-bottom: 0px; padding-bottom: 20px;}
+.info dl dd h4 { height: auto; margin-bottom: 20px; font-weight: normal; border-bottom: none; font-size:14px; line-height: 24px ; line-height: 24px; padding: 5px 10px; background-color: #f1f1f1;}
+.info dl dd ul{ overflow: hidden;}
+.info dl dd ul li{ width: 150px; float: left; ; }
+
+.info dl dt { padding-top: 10px; border-right: 1px solid #dbdbdb; margin-right: 20px; text-align: center; height: 280px; width: 300px; float: left; font-size: 18px; color: #36F; line-height: 30px; overflow: hidden }
+.info dl dt h3 { height: 40px; line-height: 40px; }
+.info dl dd { padding-top: 30px; margin-left: 300px; }
+ 
+.listpic {   display: block; overflow: auto; zoom: 1; }
+.listpic dl { height: 130px; background: #fff; margin-bottom: 15px; }
+.listpic dl dt { background: url(../images/aimg_bg0.jpg) no-repeat; width: 184px; height: 130px; float: left; display: block; margin-right: 23px; text-align: center }
+.listpic dl dt img { margin: 2px 0 0 4px; }
+.listpic dl dd h3 { font-size: 18px; height: 44px; line-height: 44px; overflow: hidden }
+.listpic dl dd h4 { height: 52px; overflow: hidden; font-size: 14px; line-height: 24px; color: #666; font-weight: normal }
+.listpic dl dd h5 { height: 32px; line-height: 32px; overflow: hidden; }
+.listpic dl dd { width: 756px; float: left }
+.infobox {  background: #fff; overflow: auto; zoom: 1; }
+.infolist { font-size: 14px; font-weight: normal; line-height: 28px; color: #666; padding-bottom: 20px; }
+.infolist ul { display: flex; justify-content: space-between;}
+.infolist ul li{ width: ;}
+.infotitle { border: 1px solid #dbdbdb; padding: 10px; line-height: 30px; margin-bottom: 15px; }
+.videobox{ float: right; width: 400px; height: 260px; }
+
+
+.contact-right{ width: 300px; float: left;}
+
+.contact { padding: 3em 0px; overflow: hidden; }
+.contact-top { text-align: center; }
+.contact-bottom { margin-top: 4%; }
+.contact-bottom iframe { width: 100%; height: 400px; }
+.contact-text { margin-top: 4%; }
+.contact-left{ float: right; width: 780px;}
+.contact-left input[type="text"] { margin-bottom: 10px; width: 32.51%; margin: 0px; color: #333; background: none; padding: 15px 10px; outline: none; border: 1px solid #333; margin-bottom: 10px; }
+.contact-left textarea { width: 88%; color: #333; resize: none; background: none; height: 12.7em; padding: 15px; outline: none; border: 1px solid #333; margin-top: 1.4%; }
+.submit-btn input[type=submit] { color: #fff; padding: 9px 42px; font-size: 15px; cursor: pointer; font-weight: 500; margin: 20px 0 0 0px; border: 3px solid #F66C54; background: #F66C54; outline: none; }
+.submit-btn input[type=submit]:hover, .reply input[type="submit"]:hover { background: transparent; color: #F66C54; transition: 0.5s all; -webkit-transition: 0.5s all; -moz-transition: 0.5s all; -ms-transition: 0.5s all; -o-transition: 0.5s all; }
+.address h5 { color: #F66C54; font-size: 1.2em; font-weight: 700; }
+.contact-left input[type="text"]:nth-child(2) { margin: 0 6px; }
+.address p { color: #999; font-size: 0.85em; line-height: 1.6em; margin-top: 1em; }
+.address p span { display: block; }
+.address p a { color: #999; }
+/****/
+.change{ position: fixed; right: 0px; bottom: 100px; width: 60px; height: 100px; z-index: 100000;}
+.change input{  width: 60px; height: 60px; border: none;}
+#blue{ background-color: #2e58ff;}
+#green{ background-color: #06fd3cda;}
+
+
+
+.restitle{
+	position: relative;
+	height: 265px;
+ 	text-transform:uppercase;
+}
+
+ .restitle h1{
+	text-align: center;
+	font-size: 32px;
+	position: relative;
+	top: 120px;
+	z-index: 1;
+	font-family: "宋体";
+}
+ .restitle h5{
+	text-align: center;
+	font-size: 66px;
+	position: relative;
+	top: 60px;
+	letter-spacing:20px;
+	color: #eacbd8;
+	font-weight: 200;
+	line-height: 21px;
+}
+ .restitle h4{
+	text-align: center;
+	font-size: 72px;
+	position: relative;
+	top: 100px;
+	letter-spacing:10px;
+	color: #eacbd8;
+	font-weight: 200;
+	line-height: 21px;
+}
+
+
+
+.login{
+	width: 560px;
+	background: #fff;
+	margin: 20px auto 20px;
+ height: 550px;
+ box-sizing: border-box;
+}
+.login ul{
+	padding: 50px 80px;
+  box-sizing: border-box;
+}
+.login ul li{
+	margin-bottom: 15px;
+  position: relative;
+  box-sizing: border-box;
+}
+.login ul li span.msg-box{
+	position: absolute;
+	right: 20px;
+	top: 5px;
+}
+.login ul li span.msg-box .n-msg{
+	display: none;
+}
+.login ul li .name,
+.login ul li .pass{
+	height: 40px;
+	padding-left: 12px;
+	background:#f5f5f5;
+	border:1px solid #e6e6e6;
+  width: 100%;
+  box-sizing: border-box;
+}
+.login ul li .pass{
+	background-position: 10px -56px;
+}
+.login ul li .btn{
+	color: #fff;
+	text-align: center;
+	background-color: #0C9DDE;
+	width: 100%;
+	height: 46px;
+	font-size: 16px;
+	border-radius: 3px;
+ 
+}
+.login ul li .btn:hover{
+	background: #0C9DDE;
+}
+
+.btn_wx{
+	display: inline-block;
+	color: #fff;
+	text-align: center;
+	background-color: #0C9DDE;
+	width: 98px;
+	margin-left: 10px;
+	height: 32px;
+	line-height: 32px;
+	border:0;
+	font-size: 14px;
+	border-radius: 3px;
+  box-sizing: border-box;
+}
+.btn_wx span{ display: block;}
+.btn_wx:hover{
+	background: #0C9DDE;
+}
+.titlemenu{ height: 40px; border-bottom: 2px solid #0C9DDE; margin-bottom: 20px;} 
+.titlemenu ul li{ width: 110px; text-align: center; float: left;height: 40px;  line-height: 40px; font-size: 16px; cursor: pointer;} 
+
+.titlemenu ul li.cur,.titlemenu ul li:hover{ background-color: #0C9DDE;  color: #fff; }
+
+.titlemenus{ height: 40px; border-bottom: 2px solid #0C9DDE; margin-bottom: 20px;} 
+.titlemenus ul li{ width: 110px; text-align: center; float: left;height: 40px;  line-height: 40px; font-size: 16px; cursor: pointer;} 
+
+.titlemenus ul li.cur,.titlemenu ul li:hover{ background-color: #0C9DDE;  color: #fff; }
